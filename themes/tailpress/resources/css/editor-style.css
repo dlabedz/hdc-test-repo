@@ -1,0 +1,63 @@
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+body {
+    @apply font-sans;
+}
+
+.wp-block{
+    @apply max-w-screen-xl;
+}
+
+.wp-block[data-align=wide] {
+    @apply max-w-screen-xl;
+}
+
+.wp-block[data-align=full] {
+    @apply max-w-full;
+}
+
+.wp-block-button__link {
+    background-color: transparent;
+    color: #1F1F1F;
+    text-transform: uppercase;
+    font-family: 'proxima-nova', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.25em;
+    border-radius: 0px;
+    border: 2px solid #00ACC8;
+    transition: all 0.3s ease;
+  
+    &:hover {
+      background-color: #00ACC8;
+      color: #1F1F1F;
+    }
+}
+
+.is-style-secondary-button {
+    .wp-block-button__link {
+      background-color: transparent;
+      border-color: #66CCDD ;
+      color: white;
+      &:hover {
+        background-color: #66CCDD;
+        color: white;
+      }
+    }
+}
+
+h1{
+    font-family: 'linotype-didot', serif;
+    @apply text-5xl;
+}
+
+h2{
+    font-family: 'linotype-didot', serif;
+    @apply text-5xl;
+}
+
+h3{
+    font-family: 'proxima-nova', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.025em; 
+}
