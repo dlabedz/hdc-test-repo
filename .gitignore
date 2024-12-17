@@ -28,16 +28,16 @@
 /wp-config.php
 
 # Themes and Plugins
-/themes/*
-/themes/twentytwentyfive
-/themes/twentytwentyfour
-/themes/twentytwentythree
+themes/*
+themes/twentytwentyfive
+themes/twentytwentyfour
+themes/twentytwentythree
 /ai1wm-backups/*
 /aiowps_backups/*
 /wflogs/*
-/plugins/*
-/plugins/what-the-file
-/mu-plugins/*
+plugins/*
+plugins/what-the-file
+mu-plugins/*
 
 
 # Log files
@@ -71,12 +71,12 @@ local-xdebuginfo.php
 !README.md
 !CHANGELOG.md
 !composer.json
-!/themes/tailpress
-!/plugins/advanced-custom-fields-pro
-!/plugins/blocks-animation
-!/plugins/slider
-!/plugins/safe-svg
-!/sql
+!themes/tailpress
+!plugins/advanced-custom-fields-pro
+!plugins/blocks-animation
+!plugins/slider
+!plugins/safe-svg
+!sql
 
 # track favicon files, if they exist
 !android-chrome-*.png
